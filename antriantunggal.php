@@ -2,7 +2,7 @@
 
 <head>
     <title>Sistem Antrian</title>
-    <link rel='StyleSheet' type='Text/css' href='style.css'>
+
 </head>
 
 <body> <br>
@@ -48,7 +48,7 @@
     <?php
     if ($_POST) {
         error_reporting(0);
-        //	 && ($kedatangan%2==0 || $kedatangan%2==1 || $pelayanan%2==0 || $pelayanan%2==1 || $banyak%2==0 || $banyak%2==1)
+
         $kedatangan        = isset($_POST['kedatangan']) ? $_POST['kedatangan'] : "";
         $pelayanan        = isset($_POST['pelayanan']) ? $_POST['pelayanan'] : "";
         $banyak            = isset($_POST['banyak']) ? $_POST['banyak'] : "";
