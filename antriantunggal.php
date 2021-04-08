@@ -2,7 +2,6 @@
 
 <head>
     <title>Sistem Antrian</title>
-
 </head>
 
 <body> <br>
@@ -48,7 +47,6 @@
     <?php
     if ($_POST) {
         error_reporting(0);
-
         $kedatangan        = isset($_POST['kedatangan']) ? $_POST['kedatangan'] : "";
         $pelayanan        = isset($_POST['pelayanan']) ? $_POST['pelayanan'] : "";
         $banyak            = isset($_POST['banyak']) ? $_POST['banyak'] : "";
